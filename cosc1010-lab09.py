@@ -1,8 +1,8 @@
-# Your Name Here
+# Cooper Lilly
 # UWYO COSC 1010
-# Submission Date
-# Lab XX
-# Lab Section:
+# Submission Date 11/19/24 :(
+# Lab 9
+# Lab Section: 13
 # Sources, people worked with, help given to:
 # Your
 # Comments
@@ -34,6 +34,19 @@
 # - Assign the parameter for size to a size attribute.
 # - Assign the parameter for sauce to the attribute.
 # - Create the toppings attribute, starting off as a list only holding cheese.
+class Pizza:
+    def __init__(self, size, sauce="red"):
+        if size > 10:
+            self.size = size
+        else:
+            self.size = 10
+        self.sauce = sauce
+        self.toppings = ["cheese"]
+
+    def get_size(self):
+        return self.size
+
+    def set_size
 
 
 # You will be creating a Pizzeria class with the following attributes:
